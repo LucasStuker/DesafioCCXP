@@ -19,8 +19,9 @@ section{
     
     background-color: #514988;
     text-align: center;
-    width: 40%;
+    width: 50%;
     color: white;
+    height: 700px;
 }
 #card h1{
     color: #F3C61F;
@@ -28,7 +29,7 @@ section{
     font-size: 50px;
     text-align: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 10px;
 
 }
@@ -39,26 +40,26 @@ section{
 }
 #card p{
     font-style: normal;
-    font-weight: 400;
-    
-    line-height: 20px;
-    
+    font-weight: 600;
+    line-height: 30px;
     align-items: center;
     text-align: center;
+    margin-top: 70px;
 }
 .container{
     display: flexbox;
-    flex-direction: ;
+    width: 50%;
+    
     
 }
 .countDown {
-    display: flex;
+    display: flex ;
     grid-auto-flow: column;
     width: 700px;
+    height: 100px;
     justify-content: space-between;
     margin-top: 5px;
-    margin-left: 50px;
-    margin-bottom: 0px;
+    margin-left: 50px;    
     text-align: center;
     color:#514988;
     font-size: 40px;
@@ -74,9 +75,21 @@ section{
     font-weight: 700;
     display: flex;
 }
+.container video{
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+
+}
 
 #botton {
     display: flex;
+    text-align: center;
+    
 }
 
 #botton h2{
@@ -102,4 +115,15 @@ section{
     font-weight: 700;
     font-size: 42px;
     border-radius: 20px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+#button input:hover{
+    background-color: #FFF;
+    transition: 100ms;
+    border: 2px solid #514988;
+    color: #514988
+
+
 }
