@@ -4,6 +4,7 @@ body {
 header{
     background-color: #FFD900 ;
     display: flex;
+    width: 100%;
 }
 header img{
     height: 50px;
@@ -59,27 +60,28 @@ section{
     height: 100px;
     justify-content: space-between;
     margin-top: 5px;
-    margin-left: 50px;    
+    margin-left: 30px;    
     text-align: center;
     color:#514988;
-    font-size: 40px;
-    line-height: 35px;
+    font-size: 30px;
+    line-height: 30px;
 }
 .container h2{
     text-align: center;
     margin-top: 5px;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 70px;
     color:#E33881;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 700;
     display: flex;
+    
 }
 .container video{
     height: 500px;
     align-items: center;
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin-left: 20px;
     margin-top: 10px;
     
@@ -95,13 +97,14 @@ section{
 #botton h2{
     text-align: center;
     color: #F3C61F;
-    width: 800px;
+    width: 900px;
     font-size: 28px;
 }
-#img {
+#img{
     align-items: center;
     display: inline-block;
     height: 500px;
+    cursor: pointer;
     
 }
 
